@@ -10,7 +10,7 @@
 
        <h1>Inscription membres</h1>
 
-       <!-- Check if there is an error code in the url and display the right message -->
+       <!-- Vérifier les erreur renvoyées dans l'url et afficher un message d'erreur-->
        <?php
        if (!empty($_GET['code'])) {
           if ($_GET['code'] == 1) {
@@ -31,7 +31,7 @@
         }
         ?>
 
-<!-- Html form -->
+<!-- Formulaire -->
        <form action="traitementform.php" method="post">
 
            <label>Pseudo
@@ -58,7 +58,7 @@
          <input type="submit" name="name" value="M'inscrire">
        </form>
 
-<!-- Link to get to the connexion page -->
+<!-- Lien direct vers la page connexio -->
        <div>
          <a href="connexion.php">Déja inscrit ? Identifiez-vous</a>
        </div>
