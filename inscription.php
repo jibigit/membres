@@ -2,7 +2,7 @@
 
     <head>
         <meta charset="utf-8" />
-        <title>Un espace membres</title>
+        <title>Inscrivez vous dans l'espace MEMBRES</title>
         
     </head>
 
@@ -34,7 +34,7 @@
 <!-- Html form -->
        <form action="traitementform.php" method="post">
 
-           <label>Votre pseudo
+           <label>Pseudo
              <p>
                <input type="text" name="pseudo">
              </p>
@@ -60,7 +60,7 @@
 
 <!-- Link to get to the connexion page -->
        <div>
-         <a href="connexion.php">Déja inscrit ? Me connecter avec mon compte</a>
+         <a href="connexion.php">Déja inscrit ? Identifiez-vous</a>
        </div>
 
     </body>
